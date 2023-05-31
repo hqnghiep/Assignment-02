@@ -59,7 +59,7 @@
 }
 .back-mtnn {
   background-color: #f7f4f4;
-  height: 426.57px;
+  height: 100%;
 }
 .contai-mtnn {
   padding: 60px 50px;
@@ -84,4 +84,37 @@
 }
 .list-icon {
   color: blue;
+}
+
+.container-muc {
+  width: 70%;
+  margin: 1rem auto;
+}
+.layout-muc {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
+  column-gap: 1em;
+}
+.bor-muc {
+  border: 1px solid #333;
+  border-radius: 5px;
+  /* height: 100%; */
+}
+.mini-contai {
+  padding: 10px;
+}
+.layout-icon-muc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ic-toolbox {
+  font-size: 2rem;
+}
+.ic-pencil {
+  font-size: 2rem;
+}
+.ic-toolbox {
+  font-size: 2rem;
 }

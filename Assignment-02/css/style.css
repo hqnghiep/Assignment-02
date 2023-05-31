@@ -1,63 +1,87 @@
-* {
-  margin: 0px;
-}
-
-.bg-grey {
-  background: #f7f7f7;
-}
-
-section > .container {
-  width: 1170px;
-  margin: auto;
-  display: block;
-
-  padding: 30px 50px;
-}
-
-#nav-bar {
-  text-align: center;
+.containerall {
+  width: 100%;
 }
 
 #banner {
+  width: 100%;
+  height: 450px;
   position: relative;
-  height: 400px;
 }
-
 #banner img {
   width: 100%;
-  height: 400px;
+  height: 450px;
   filter: brightness(60%);
-  padding-bottom: 0;
 }
-
 .text-banner {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
   text-align: center;
+  color: white;
+}
+.text-banner h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-#link-banner {
-  display: flex !important;
+.layout-navbar {
+  display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 80px;
-  padding: 0 !important;
 }
-
-#link-banner a {
+.layout-navbar a {
   text-decoration: none;
-  color: rgb(4, 4, 79);
-  padding: 13px 30px;
-  text-transform: uppercase;
+  padding: 20px 40px;
+}
+.cot2 {
+  text-align: center;
+}
+.cot2 h1 {
+  margin: 0;
 }
 
 #border-lr {
-  border-left: 1px solid rgb(144, 144, 224);
-  border-right: 1px solid rgb(144, 144, 224);
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 #border-r {
-  border-right: 1px solid rgb(144, 144, 224);
+  border-right: 1px solid #333;
+}
+
+.layout-mtnn {
+  width: 100%;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+}
+.back-mtnn {
+  background-color: #f7f4f4;
+  height: 426.57px;
+}
+.contai-mtnn {
+  padding: 60px 50px;
+}
+.contai-mtnn h1 {
+  margin: 0;
+}
+.contais-ttcn {
+  background-color: #cec9c9;
+}
+.layout-ttcn {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 60px;
+  align-items: center;
+}
+.indam {
+  font-weight: bold;
+}
+.innghieng {
+  font-style: italic;
+}
+.list-icon {
+  color: blue;
 }
